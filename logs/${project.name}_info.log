@@ -1,0 +1,197 @@
+2020-04-01 16:14:00,229 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+2020-04-01 16:14:00,673 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-01 16:14:00,835 INFO [main][GenericScope.java:294] - BeanFactory id=33c68227-122c-36dd-8028-a36de4f592a4
+2020-04-01 16:14:00,892 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5d59af46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-01 16:14:01,122 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 56080 (http)
+2020-04-01 16:14:01,130 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-56080"]
+2020-04-01 16:14:01,135 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2020-04-01 16:14:01,135 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2020-04-01 16:14:01,140 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_73\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_73\bin;C:\Program Files\Java\jdk1.8.0_73\jre\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\17896\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;.]
+2020-04-01 16:14:01,231 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2020-04-01 16:14:01,231 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 992 ms
+2020-04-01 16:14:01,291 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2020-04-01 16:14:01,292 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-01 16:14:01,327 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@56399b9e
+2020-04-01 16:14:02,416 INFO [main][WebApplicationImpl.java:815] - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-04-01 16:14:02,467 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+2020-04-01 16:14:02,467 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+2020-04-01 16:14:02,575 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+2020-04-01 16:14:02,576 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+2020-04-01 16:14:02,829 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2020-04-01 16:14:02,829 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-01 16:14:02,929 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 16:14:03,920 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+2020-04-01 16:14:03,950 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+2020-04-01 16:14:03,950 INFO [main][DiscoveryClient.java:352] - Client configured to neither register nor query for data.
+2020-04-01 16:14:03,961 INFO [main][DiscoveryClient.java:365] - Discovery Client initialized at timestamp 1585728843960 with initial instances count: 0
+2020-04-01 16:14:03,991 INFO [main][DefaultEurekaServerContext.java:63] - Initializing ...
+2020-04-01 16:14:03,992 INFO [main][PeerEurekaNodes.java:188] - Adding new peer nodes [http://localhost:56080/eureka/]
+2020-04-01 16:14:04,115 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+2020-04-01 16:14:04,116 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+2020-04-01 16:14:04,116 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+2020-04-01 16:14:04,116 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+2020-04-01 16:14:04,190 INFO [main][PeerEurekaNodes.java:110] - Replica node URL:  http://localhost:56080/eureka/
+2020-04-01 16:14:04,196 INFO [main][AbstractInstanceRegistry.java:151] - Finished initializing remote region registries. All known remote regions: []
+2020-04-01 16:14:04,197 INFO [main][DefaultEurekaServerContext.java:70] - Initialized
+2020-04-01 16:14:04,204 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-01 16:14:04,257 INFO [main][EurekaServiceRegistry.java:42] - Registering application SEATA-DEMO-DISCOVERY with eureka with status UP
+2020-04-01 16:14:04,259 INFO [Thread-26][EurekaServerBootstrap.java:109] - Setting the eureka configuration..
+2020-04-01 16:14:04,260 INFO [Thread-26][EurekaServerBootstrap.java:114] - Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-04-01 16:14:04,260 INFO [Thread-26][EurekaServerBootstrap.java:128] - Eureka environment value eureka.environment is not set, defaulting to test
+2020-04-01 16:14:04,272 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-56080"]
+2020-04-01 16:14:04,272 INFO [Thread-26][EurekaServerBootstrap.java:184] - isAws returned false
+2020-04-01 16:14:04,272 INFO [Thread-26][EurekaServerBootstrap.java:152] - Initialized server context
+2020-04-01 16:14:04,273 INFO [Thread-26][PeerAwareInstanceRegistryImpl.java:241] - Got 1 instances from neighboring DS node
+2020-04-01 16:14:04,273 INFO [Thread-26][PeerAwareInstanceRegistryImpl.java:242] - Renew threshold is: 1
+2020-04-01 16:14:04,273 INFO [Thread-26][PeerAwareInstanceRegistryImpl.java:253] - Changing status to UP
+2020-04-01 16:14:04,278 INFO [Thread-26][EurekaServerInitializerConfiguration.java:72] - Started Eureka Server
+2020-04-01 16:14:04,294 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 56080 (http) with context path ''
+2020-04-01 16:14:04,294 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 56080
+2020-04-01 16:14:04,296 INFO [main][StartupInfoLogger.java:59] - Started DiscoveryServer in 6.173 seconds (JVM running for 7.441)
+2020-04-01 16:14:04,622 INFO [RMI TCP Connection(4)-127.0.0.1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-01 16:14:04,622 INFO [RMI TCP Connection(4)-127.0.0.1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+2020-04-01 16:14:04,628 INFO [RMI TCP Connection(4)-127.0.0.1][FrameworkServlet.java:546] - Completed initialization in 6 ms
+2020-04-01 16:14:14,273 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:14:24,274 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:14:34,275 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:14:44,275 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:14:54,276 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:15:04,277 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:15:14,278 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:15:24,279 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+2020-04-01 16:15:34,280 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:15:44,280 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:15:54,281 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:16:04,282 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:16:14,282 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:16:24,283 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:16:34,283 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:16:44,284 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:16:54,285 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:17:04,285 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:17:14,286 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:17:24,286 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:17:34,287 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:17:41,522 INFO [http-nio-56080-exec-6][AbstractInstanceRegistry.java:266] - Registered instance SEATA-DEMO-BANK1/seata-demo-bank1:192.168.100.6:56081 with status UP (replication=false)
+2020-04-01 16:17:42,103 INFO [http-nio-56080-exec-9][AbstractInstanceRegistry.java:266] - Registered instance SEATA-DEMO-BANK1/seata-demo-bank1:192.168.100.6:56081 with status UP (replication=true)
+2020-04-01 16:17:44,287 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:17:54,288 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:18:04,288 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:18:14,288 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:18:24,289 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:18:34,290 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:18:40,838 INFO [http-nio-56080-exec-2][AbstractInstanceRegistry.java:266] - Registered instance SEATA-DEMO-BANK2/seata-demo-bank2:192.168.100.6:56082 with status UP (replication=false)
+2020-04-01 16:18:41,348 INFO [http-nio-56080-exec-3][AbstractInstanceRegistry.java:266] - Registered instance SEATA-DEMO-BANK2/seata-demo-bank2:192.168.100.6:56082 with status UP (replication=true)
+2020-04-01 16:18:44,290 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:18:54,292 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+2020-04-01 16:19:04,292 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:19:14,293 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:19:24,293 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:19:34,294 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:19:44,295 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:19:54,296 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:20:04,296 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:20:14,296 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:20:24,297 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:20:34,298 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:20:44,299 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:20:54,299 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:21:04,300 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:21:14,300 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:21:24,301 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:21:34,301 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:21:44,302 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:21:54,302 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:22:04,302 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:22:14,303 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:22:24,303 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:22:34,304 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:22:44,304 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:22:54,305 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:23:04,305 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:23:14,305 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:23:24,305 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:23:34,306 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:23:44,306 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:23:54,307 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:24:04,307 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:24:14,307 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:24:24,308 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:24:34,308 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:24:44,308 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:24:54,309 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:25:04,310 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:25:14,310 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:25:24,310 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:25:34,311 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:25:44,311 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:25:54,312 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:26:04,312 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:26:14,313 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:26:24,313 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:26:34,314 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:26:44,314 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:26:54,315 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:27:04,315 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:27:14,316 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:27:24,316 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:27:34,316 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:27:44,317 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+2020-04-01 16:27:54,318 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:28:04,318 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:28:14,319 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:28:24,319 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:28:34,320 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:28:44,320 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:28:54,320 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:29:04,196 INFO [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater][PeerAwareInstanceRegistryImpl.java:539] - Current renewal threshold is : 0
+2020-04-01 16:29:04,321 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:29:14,321 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:29:24,322 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+2020-04-01 16:29:34,323 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:29:44,324 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:29:54,324 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:30:04,325 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:30:14,325 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:30:24,326 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:30:34,327 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:30:44,328 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+2020-04-01 16:30:54,328 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:31:04,328 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:31:14,328 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:31:24,330 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+2020-04-01 16:31:34,330 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:31:44,331 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 1ms
+2020-04-01 16:31:54,331 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:32:04,332 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:32:14,332 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:32:24,332 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:32:34,333 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:32:44,334 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:32:54,335 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:33:04,335 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:33:14,336 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:33:24,336 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:33:34,337 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:33:44,337 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:33:54,337 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:34:04,338 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:34:14,338 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:34:24,338 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:34:34,338 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:34:44,339 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:34:54,339 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:35:04,340 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:35:14,340 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:35:24,340 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:35:34,340 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:35:44,341 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:35:54,342 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:36:04,343 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:36:14,343 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:36:24,344 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:36:34,345 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:36:44,345 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:36:54,346 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:37:04,346 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
+2020-04-01 16:37:14,347 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 0ms
